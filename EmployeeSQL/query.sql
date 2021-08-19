@@ -54,7 +54,3 @@ SELECT last_name,count(last_name) AS "count"
 FROM employees
 GROUP BY last_name
 ORDER BY "count" DESC;
-
-
-
-
